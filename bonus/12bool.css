@@ -111,6 +111,46 @@
     margin-left: calc(100% / 12 * 11);
  }
 
+  /*---------------------
+ UTILITIES
+ ---------------------*/
+
+ .space-betweem{
+   justify-content: space-between;
+ }
+
+ .space-evenly{
+   justify-content: space-evenly;
+ }
+
+ .space-around{
+   justify-content: space-around;
+ }
+
+ .flex-start{
+   justify-content: flex-start;
+ }
+
+ .flex-end{
+   justify-content: flex-end;
+ }
+
+ .justify-center{
+   justify-content: center;
+ }
+
+ .align-flex-start{
+   align-items: flex-start;
+ }
+
+ .align-flex-end{
+   align-items: flex-end;
+ }
+
+ .align-center{
+   align-items: center;
+ }
+
 /*---------------------
  RESPONSIVE
  ---------------------*/

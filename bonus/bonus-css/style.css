@@ -30,34 +30,25 @@ body{
    background-color: bisque;
  }
 
- .header-title{
-   color: black;
+ .header-logo{
    text-align: center;
-   font-size:  1.875rem;
-   padding: 1.25rem 0;
+   width: 100%;
  }
-
-.header-row-hidden{
-   display: none;
-}
 
 .header-link{
    text-align: center;
    text-decoration: none;
    color: black;
    font-size: 1.25rem;
+   padding: 1.25rem .3125rem;
 }
 
-.link-container{
-   text-align: center;
-   padding: 1.25rem 0;
-}
-
-.link-container:hover{
-   background-color: rgba(0, 0, 0, 0.5);
+.col-12{
+   display: flex;
+   justify-content: space-between;
 }
 
 .header-link:hover{
-   color: white;
+   color: darkgray;
 }
 

@@ -111,46 +111,6 @@
     margin-left: calc(100% / 12 * 11);
  }
 
-  /*---------------------
- UTILITIES
- ---------------------*/
-
- .space-betweem{
-   justify-content: space-between;
- }
-
- .space-evenly{
-   justify-content: space-evenly;
- }
-
- .space-around{
-   justify-content: space-around;
- }
-
- .flex-start{
-   justify-content: flex-start;
- }
-
- .flex-end{
-   justify-content: flex-end;
- }
-
- .justify-center{
-   justify-content: center;
- }
-
- .align-flex-start{
-   align-items: flex-start;
- }
-
- .align-flex-end{
-   align-items: flex-end;
- }
-
- .align-center{
-   align-items: center;
- }
-
 /*---------------------
  RESPONSIVE
  ---------------------*/
@@ -254,6 +214,7 @@
   /* Responsive Medium 768px */
  
   @media screen and (min-width: 768px){
+
    .col-md-1{
       width: calc(100% / 12 * 1);
    }
@@ -350,6 +311,15 @@
    /* Responsive Large 992px */
  
    @media screen and (min-width: 992px){
+
+      .header-row-hidden{
+         display: flex;
+      }
+      
+      .col-12{
+         display: none;
+      }
+
       .col-lg-1{
          width: calc(100% / 12 * 1);
       }
@@ -443,3 +413,43 @@
       }
    }
  
+     /*---------------------
+ UTILITIES
+ ---------------------*/
+
+ .space-between{
+   justify-content: space-between;
+ }
+
+ .space-evenly{
+   justify-content: space-evenly;
+ }
+
+ .space-around{
+   justify-content: space-around;
+ }
+
+ .flex-start{
+   justify-content: flex-start;
+ }
+
+ .flex-end{
+   justify-content: flex-end;
+ }
+
+ .justify-center{
+   justify-content: center;
+ }
+
+ .align-flex-start{
+   align-items: flex-start;
+ }
+
+ .align-flex-end{
+   align-items: flex-end;
+ }
+
+ .align-center{
+   align-items: center;
+ }
+

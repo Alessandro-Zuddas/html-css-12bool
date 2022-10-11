@@ -1,0 +1,63 @@
+
+/*---------------------
+ RESET
+ ---------------------*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+/*---------------------
+ CONTAINERS 
+ ---------------------*/
+
+.container-full{
+    width: 100vw;
+    margin: auto;
+ }
+
+/*---------------------
+ HEADER
+ ---------------------*/
+
+ header{
+   background-color: bisque;
+ }
+
+ .header-title{
+   color: black;
+   text-align: center;
+   font-size:  1.875rem;
+   padding: 1.25rem 0;
+ }
+
+.header-row-hidden{
+   display: none;
+}
+
+.header-link{
+   text-align: center;
+   text-decoration: none;
+   color: black;
+   font-size: 1.25rem;
+}
+
+.link-container{
+   text-align: center;
+   padding: 1.25rem 0;
+}
+
+.link-container:hover{
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-link:hover{
+   color: white;
+}
+

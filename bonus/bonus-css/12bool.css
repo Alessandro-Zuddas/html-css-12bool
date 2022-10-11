@@ -13,6 +13,7 @@
  .row{
     display: flex;
     width: 100%;
+    flex-wrap: wrap;
  }
 
  .col-1{
@@ -214,6 +215,24 @@
   /* Responsive Medium 768px */
  
   @media screen and (min-width: 768px){
+
+   .work-img-1{
+      max-width: 100%;
+      object-fit: cover;
+      padding: .3125rem .3125rem;
+      border: 1px solid white;
+      border-radius: 1.5625rem;
+   }
+   
+   .works-title{
+      align-self: center;
+      padding-left: .625rem;
+   }
+   
+   .works-desc{
+      color: white;
+      padding-top: 1.5625rem;
+   }
 
    .col-md-1{
       width: calc(100% / 12 * 1);

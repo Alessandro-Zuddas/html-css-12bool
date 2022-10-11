@@ -11,6 +11,7 @@
 
 body{
    font-family: 'Roboto', sans-serif;
+   background-color: #3B5455;
 }
 
 /*---------------------
@@ -18,9 +19,25 @@ body{
  ---------------------*/
 
 .container-full{
-    width: 100vw;
+    max-width: 100vw;
     margin: auto;
  }
+
+ .container-center{
+   max-width: 75vw;
+   margin: auto;
+ }
+
+ .hero-container{
+   background-image: url(../img/piscina2.jpg);
+   background-position: center;
+   background-size: cover;
+ }
+
+
+ .divider{
+   margin: .625rem .625rem;
+}
 
 /*---------------------
  HEADER
@@ -30,16 +47,11 @@ body{
    background-color: bisque;
  }
 
- .header-logo{
-   text-align: center;
-   width: 100%;
- }
-
 .header-link{
    text-align: center;
    text-decoration: none;
-   color: black;
-   font-size: 1.25rem;
+   color: #3B5455;
+   font-size: 1.125rem;
    padding: 1.25rem .3125rem;
 }
 
@@ -52,3 +64,46 @@ body{
    color: darkgray;
 }
 
+/*---------------------
+ HERO
+ ---------------------*/
+
+.hero-container{
+   display: flex;
+   justify-content: center;
+}
+
+.logo-hero{
+   text-align: center;
+   max-width: 100%;
+   padding: 1.25rem 0;
+ }
+
+ /*---------------------
+ MAIN
+ ---------------------*/
+ 
+/* Sezione Works */
+
+.works{
+   margin: 1.5625rem 0;
+}
+
+.work-img-1{
+   max-width: 100%;
+   object-fit: cover;
+   padding: .3125rem .3125rem;
+   border: 1px solid white;
+   border-radius: 1.5625rem;
+}
+
+.works-title{
+   font-size: 1.5625rem;
+   padding-top: 1.5625rem;
+   color: white;
+}
+
+.works-desc{
+   color: white;
+   padding-top: 1.5625rem;
+}
